@@ -1,0 +1,131 @@
+﻿@model IEnumerable<Invoice>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+  
+    @await Component.InvokeAsync("HeadCount", new { categoryId = 0 })
+    @await Component.InvokeAsync("AggregateInfo")
+</div>
+
+<p>
+    <button id="btnCreate" class="btn btn-primary" asp-action="Create">Add New Invoice</button>
+    
+    <a class="btn btn-info" asp-action="Index" asp-controller="Home">Back To Home</a>
+</p>
+<h1>Invoice List</h1>
+
+<table class ="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.InvoiceId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvoiceDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvoiceNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPaid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvoiceAmount)
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerType.CustomerTypeName)
+            </th>
+            <th>InvoiceDetails</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="invoice-list-body">
+@foreach (var item in Model) {
+            <tr data-invoice-id="@item.InvoiceId">
+            <td>
+                @Html.DisplayFor(modelItem => item.InvoiceId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvoiceDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvoiceNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsPaid)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InvoiceAmount)
+                </td>
+            <td>
+                    <img src="~/images/@item.ImageUrl" width="60" height="60" class="rounded" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerType.CustomerTypeName)
+            </td>
+                <td>
+                    <ul>
+                        @foreach (var m in item.InvoiceDetails)
+                        {
+                            <li>@m.ProductName - @m.Quantity</li>
+                        }
+                    </ul>
+                </td>
+            <td>
+                    <a class="btn btn-primary btn-sm edit-btn" href="@Url.Action("EditPartial", "Invoices", new {id=item.InvoiceId})">Edit</a> |
+                  
+                    @Html.ActionLink("Delete", "Delete", new { id = item.InvoiceId }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div id="modalContainer">
+</div>
+@section scripts {
+    <script>
+        $(document).ready(function () {
+
+            $("#btnCreate").click(function () {
+                $.get('@Url.Action("CreateInvoice", "Invoices")', function (data) {
+                    $("#modalContainer").html('<div class="modal fade show" style="display:block;" aria-modal="true" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content">' + data + '</div></div></div><div class="modal-backdrop fade show"></div>');
+                     attachModalEventListeners();
+
+                });
+            });
+            $('#invoice-list-body').on('click', '.edit-btn', function (e) {
+                e.preventDefault();
+                var editUrl = $(this).attr('href');
+
+                $.get(editUrl, function (data) {
+                    $("#modalContainer").html('<div class="modal fade show" style="display:block;" aria-modal="true" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content">' + data + '</div></div></div><div class="modal-backdrop fade show"></div>');
+                    attachModalEventListeners("Edit", $(e.currentTarget).closest('tr').data('invoice-id'));
+                });
+            });
+
+
+            
+          function attachModalEventListeners(action = "Create", invoiceId = null) {
+                $(document).off("click", ".modal-backdrop, .modal .btn-secondary").on("click", ".modal-backdrop, .modal .btn-secondary", function () {
+                    $("#modalContainer").empty();
+                });
+
+
+            }
+
+        });
+    </script>
+}

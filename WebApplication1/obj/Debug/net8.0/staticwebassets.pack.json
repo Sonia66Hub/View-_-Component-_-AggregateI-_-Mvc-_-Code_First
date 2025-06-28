@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\images\\36cf5cb6-8541-4eec-80f4-90516de43fd4.png",
+      "PackagePath": "staticwebassets\\images\\36cf5cb6-8541-4eec-80f4-90516de43fd4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\images\\382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.png",
+      "PackagePath": "staticwebassets\\images\\382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\images\\4c5417f3-528b-4b8f-bd30-5c44c42750bf.png",
+      "PackagePath": "staticwebassets\\images\\4c5417f3-528b-4b8f-bd30-5c44c42750bf.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\images\\9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jpg",
+      "PackagePath": "staticwebassets\\images\\9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\images\\b51c49e0-7472-4472-b7f1-00cd8b41bd10.jpg",
+      "PackagePath": "staticwebassets\\images\\b51c49e0-7472-4472-b7f1-00cd8b41bd10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\images\\d9eb21b3-f94c-402f-9e94-dc95cc16851f.png",
+      "PackagePath": "staticwebassets\\images\\d9eb21b3-f94c-402f-9e94-dc95cc16851f.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\images\\noimage.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\View_Component_AggregateI_AkPage\\CustomerCodeFirstSpa\\WebApplication1\\wwwroot\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApplication1.props",
+      "PackagePath": "build\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication1.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication1.props",
+      "PackagePath": "buildTransitive\\WebApplication1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

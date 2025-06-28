@@ -1,0 +1,29 @@
+﻿ @model IEnumerable<CustomerTypeHeadCount>
+
+<h4>Invoice Count by CustomerType</h4>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>CustomerType Name</th>
+                <th>Invoice Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.CustomerTypeName</td>
+                    <td>@item.Count</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No CustomerType count data available.</p>
+}
+

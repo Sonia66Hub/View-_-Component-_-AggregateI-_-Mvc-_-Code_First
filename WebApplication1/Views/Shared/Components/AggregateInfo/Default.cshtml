@@ -1,0 +1,59 @@
+﻿@model AggregateViewModel
+
+<h3>Aggregate Function</h3>
+
+@if (Model != null)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Min</th>
+                <th>Max</th>
+                <th>Sum</th>
+                <th>Avg</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.MinValue</td>
+                <td>@Model.MaxValue</td>
+                <td>@Model.SumValue</td>
+                <td>@Model.AvgValue</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Group By Result</h3>
+    @if (Model.GroupByResult != null && Model.GroupByResult.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>CustomerType</th>
+                    <th>Min</th>
+                    <th>Max</th>
+                    <th>Sum</th>
+                    <th>Avg</th>
+                    <th>Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.GroupByResult)
+                {
+                    <tr>
+                        <td>@item.CustomerTypeName</td>
+                        <td>@item.MinValue</td>
+                        <td>@item.MaxValue</td>
+                        <td>@item.SumValue</td>
+                        <td>@item.AvgValue</td>
+                        <td>@item.Count</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No grouped data found.</p>
+    }
+}

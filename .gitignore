@@ -1,0 +1,37 @@
+# Ignore build outputs
+/bin/
+/obj/
+/out/
+/publish/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore logs and temp
+*.log
+*.tmp
+*.bak
+
+# Ignore EF Core migration db snapshots
+*.dbmdl
+
+# Ignore local secret settings
+appsettings.Development.json
+secrets.json
+
+# Ignore OS artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore VS Code settings
+.vscode/
+*.code-workspace
+
+# Ignore Rider settings (if used)
+.idea/
+*.iml

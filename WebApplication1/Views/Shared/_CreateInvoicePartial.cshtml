@@ -1,0 +1,106 @@
+﻿@model InvoiceViewModel
+<div class="modal-header">
+    <h5 class="modal-title">Add New Invoice</h5>
+</div>
+<div class="modal-body">
+    @using (Html.BeginForm("CreateInvoice", "Invoices", FormMethod.Post, new { id = "createInvoiceForm", enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="row">
+            <div class="col-md-7">
+                <h4> Invoice Information</h4>
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="CustomerName"></label>
+                    <input asp-for="CustomerName" class="form-control" />
+                    <span asp-validation-for="CustomerName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="InvoiceDate"></label>
+                    <input asp-for="InvoiceDate" class="form-control" />
+                    <span asp-validation-for="InvoiceDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="InvoiceNo"></label>
+                    <input asp-for="InvoiceNo" class="form-control" />
+                    <span asp-validation-for="InvoiceNo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="InvoiceAmount"></label>
+                    <input asp-for="InvoiceAmount" class="form-control" />
+                    <span asp-validation-for="InvoiceAmount" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CustomerTypeId"></label>
+                    <select asp-for="CustomerTypeId" class="form-control" asp-items="@(new SelectList(Model.CustomerTypes, "CustomerTypeId", "CustomerTypeName"))">
+                        <option value="">-- Select CustomerType --</option>
+                    </select>
+                    <span asp-validation-for="CustomerTypeId" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check">
+                    <input asp-for="IsPaid" class="form-check-input" />
+                    <label class="form-check-label" asp-for="IsPaid">Is Paid</label>
+                </div>
+                <div class="form-group mb-2">
+                    <img id="imageFile" src="~/images/noimage.png" alt="image" width="100" /><br />
+                    @Html.LabelFor(model => model.ProfileFile, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <input onchange="readUrl(this)" type="file" name="ProfileFile" id="ProfileFile" class="invisible" />
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h4> Product Information</h4>
+                <button onclick="AddInvoice()" type="button" class="btn btn-warning mb-2">Add Product</button>
+                @Html.Partial("_AddInvoices", Model.InvoiceDetails)
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Close</button>
+            <button type="submit" class="btn btn-success">Create Invoice</button>
+        </div>
+    }
+</div>
+<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+<script>
+    function readUrl(i) {
+        if (i.files && i.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $("#imageFile").attr('src', e.target.result)
+            }
+            reader.readAsDataURL(i.files[0])
+        }
+    }
+
+    function deleteRow(btn) {
+        $(btn).closest('tr').remove()
+       updateInvoiceDetailIndex();
+    }
+
+        function AddInvoice() {
+            var lastIndex = parseInt($("#HIndex").val())
+    var newRow = `<tr>
+        <td>
+            <input type="text" class="form-control" value="" name="InvoiceDetails[${lastIndex}].ProductName" />
+        </td>
+        <td>
+        <input type="text" class="form-control" value="" name="InvoiceDetails[${lastIndex}].Quantity" />
+        </td>
+        <td>
+            <button onclick="deleteRow(this)" type="button" class="btn btn-danger mb-2">Delete</button>
+        </td>
+    </tr>`;
+        $("#ExTable tbody").append(newRow)
+        $("#HIndex").val(lastIndex +1)
+          updateInvoiceDetailIndex();
+    }
+     function updateInvoiceDetailIndex() {
+        $("#ExTable tbody tr").each(function (index) {
+            $(this).find("input[name^='InvoiceDetails']").each(function () {
+                var name = $(this).attr("name");
+                name = name.replace(/InvoiceDetails\[\d+\]/, "InvoiceDetails[" + index + "]");
+                $(this).attr("name", name)
+            })
+        })
+    }
+</script>

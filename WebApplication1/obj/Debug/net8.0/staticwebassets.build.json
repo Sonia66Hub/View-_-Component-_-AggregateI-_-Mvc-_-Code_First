@@ -1,0 +1,1052 @@
+{
+  "Version": 1,
+  "Hash": "cvE4zUmElFnAC6Y9nZCnJVm/9svVFGk0UvI52n/nx6Y=",
+  "Source": "WebApplication1",
+  "BasePath": "_content/WebApplication1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication1\\wwwroot",
+      "Source": "WebApplication1",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "bootstrap/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46ein0sx1k",
+      "Integrity": "PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "bootstrap/js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63fj8s7r0e",
+      "Integrity": "3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\36cf5cb6-8541-4eec-80f4-90516de43fd4.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/36cf5cb6-8541-4eec-80f4-90516de43fd4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oqswb6oiou",
+      "Integrity": "gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\36cf5cb6-8541-4eec-80f4-90516de43fd4.png"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/382bc7ba-b7ec-4d7d-b1fa-911b1806ed79#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oqswb6oiou",
+      "Integrity": "gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.png"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\4c5417f3-528b-4b8f-bd30-5c44c42750bf.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/4c5417f3-528b-4b8f-bd30-5c44c42750bf#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oqswb6oiou",
+      "Integrity": "gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4c5417f3-528b-4b8f-bd30-5c44c42750bf.png"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jwvomr4m0a",
+      "Integrity": "fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\b51c49e0-7472-4472-b7f1-00cd8b41bd10.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/b51c49e0-7472-4472-b7f1-00cd8b41bd10#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jwvomr4m0a",
+      "Integrity": "fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b51c49e0-7472-4472-b7f1-00cd8b41bd10.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\d9eb21b3-f94c-402f-9e94-dc95cc16851f.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/d9eb21b3-f94c-402f-9e94-dc95cc16851f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oqswb6oiou",
+      "Integrity": "gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d9eb21b3-f94c-402f-9e94-dc95cc16851f.png"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\noimage.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/noimage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sth9cgx6m9",
+      "Integrity": "gB51J/ZXrpoH4iOsBy/+5MlkPUOTpvOZw9C7Xi17Big=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\noimage.png"
+    },
+    {
+      "Identity": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\jquery\\jquery.min.js",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "jquery/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "bootstrap/css/bootstrap.min.46ein0sx1k.css",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "46ein0sx1k"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/js/bootstrap.min.63fj8s7r0e.js",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63fj8s7r0e"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/js/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/36cf5cb6-8541-4eec-80f4-90516de43fd4.oqswb6oiou.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\36cf5cb6-8541-4eec-80f4-90516de43fd4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oqswb6oiou"
+        },
+        {
+          "Name": "label",
+          "Value": "images/36cf5cb6-8541-4eec-80f4-90516de43fd4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/36cf5cb6-8541-4eec-80f4-90516de43fd4.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\36cf5cb6-8541-4eec-80f4-90516de43fd4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.oqswb6oiou.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oqswb6oiou"
+        },
+        {
+          "Name": "label",
+          "Value": "images/382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\382bc7ba-b7ec-4d7d-b1fa-911b1806ed79.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/4c5417f3-528b-4b8f-bd30-5c44c42750bf.oqswb6oiou.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\4c5417f3-528b-4b8f-bd30-5c44c42750bf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oqswb6oiou"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4c5417f3-528b-4b8f-bd30-5c44c42750bf.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/4c5417f3-528b-4b8f-bd30-5c44c42750bf.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\4c5417f3-528b-4b8f-bd30-5c44c42750bf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jpg",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8="
+        }
+      ]
+    },
+    {
+      "Route": "images/9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jwvomr4m0a.jpg",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwvomr4m0a"
+        },
+        {
+          "Name": "label",
+          "Value": "images/9fc5dc0f-c9c2-468c-97d7-5a5a8d4518b5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8="
+        }
+      ]
+    },
+    {
+      "Route": "images/b51c49e0-7472-4472-b7f1-00cd8b41bd10.jpg",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\b51c49e0-7472-4472-b7f1-00cd8b41bd10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8="
+        }
+      ]
+    },
+    {
+      "Route": "images/b51c49e0-7472-4472-b7f1-00cd8b41bd10.jwvomr4m0a.jpg",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\b51c49e0-7472-4472-b7f1-00cd8b41bd10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwvomr4m0a"
+        },
+        {
+          "Name": "label",
+          "Value": "images/b51c49e0-7472-4472-b7f1-00cd8b41bd10.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fWat0Ww8t8qqelIgYMqCtyH+CEpDn+itqunldElLPS8="
+        }
+      ]
+    },
+    {
+      "Route": "images/d9eb21b3-f94c-402f-9e94-dc95cc16851f.oqswb6oiou.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\d9eb21b3-f94c-402f-9e94-dc95cc16851f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oqswb6oiou"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d9eb21b3-f94c-402f-9e94-dc95cc16851f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/d9eb21b3-f94c-402f-9e94-dc95cc16851f.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\d9eb21b3-f94c-402f-9e94-dc95cc16851f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBxLIWPZD6A0MwtLNYBMmge7TGaPTxdC5kSSEkti4XE="
+        }
+      ]
+    },
+    {
+      "Route": "images/noimage.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\noimage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gB51J/ZXrpoH4iOsBy/+5MlkPUOTpvOZw9C7Xi17Big=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gB51J/ZXrpoH4iOsBy/+5MlkPUOTpvOZw9C7Xi17Big="
+        }
+      ]
+    },
+    {
+      "Route": "images/noimage.sth9cgx6m9.png",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\images\\noimage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gB51J/ZXrpoH4iOsBy/+5MlkPUOTpvOZw9C7Xi17Big=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sth9cgx6m9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/noimage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gB51J/ZXrpoH4iOsBy/+5MlkPUOTpvOZw9C7Xi17Big="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.js",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.o1o13a6vjx.js",
+      "AssetFile": "C:\\Users\\SHAJIB\\Downloads\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\View_Component_AggregateI_Mvc_Code_First\\WebApplication1\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 14:12:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    }
+  ]
+}

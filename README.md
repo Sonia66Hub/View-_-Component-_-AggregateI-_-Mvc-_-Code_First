@@ -102,3 +102,26 @@ Pull requests welcome! For major changes, please open an issue first to discuss.
 ## 📄 License
 
 MIT License - use freely for educational or professional use.
+
+🎥 Demo Video
+
+🔹 Watch Full Walkthrough on YouTube
+👉 https://youtu.be/4XlwvRq-h8o
+
+---
+🤝 Contribution Guide
+
+Fork the repository
+
+Create a new branch (feature/your-feature)
+
+Commit your changes
+
+Push and open a Pull Request 🎉
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and enhance!
+
+📫 Contact
+<p align="center"> Developed with ❤️ by <strong>SONIA KHATUN</strong><br/> 📧 <a href="mailto:yesminsonia66@gmail.com">yesminsonia66@gmail.com</a><br/> 🌐 <a href="https://github.com/Sonia66Hub" target="_blank">GitHub Profile</a> </p> ```
